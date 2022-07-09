@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(158, 218, 6, 0.696);
+}
+
+#keyboard{
+    background-color: rgb(169, 212, 255);
+    display: flex;
+    flex-flow: nowrap column;
+    padding: 2%;
+    min-width: 50%;
+    max-width: 80%;
+    margin-inline: auto;
+}
+
+#row{
+    display: flex;
+    flex-flow: nowrap row;
+    align-items: center;
+}
+
+.keys{
+    user-select: none;
+    background-color: rgb(61, 228, 0);
+    color: black;
+    padding: 1%;
+    margin: 3px;
+    height: 35px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    flex-grow: 1;
+    text-align: center;
+    flex-basis:15px;
+    font-size: x-large;
+    font-family:Helvetica;
+}
+
+.keys:hover{
+    flex-grow: 1.2;
+    box-shadow: 2px 2px;
+}
+
+
+#stretch{
+    flex-grow: 1.7;
+}
+
+#stretch2{
+    flex-grow: 2;
+}
+
+#stretch3{
+    flex-grow: 3;
+}
+
+#stretch4{
+    flex-grow: 6;
+}
+#stretch5{
+    flex-grow: 20;
+}
+
+#arrow{
+    flex-grow: 0.3;
+}
